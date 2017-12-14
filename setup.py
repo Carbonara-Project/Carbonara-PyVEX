@@ -17,8 +17,8 @@ else:
 import platform
 
 PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))
-LIB_DIR = os.path.join(PROJECT_DIR, 'pyvex', 'lib')
-INCLUDE_DIR = os.path.join(PROJECT_DIR, 'pyvex', 'include')
+LIB_DIR = os.path.join(PROJECT_DIR, 'carbonara_pyvex', 'lib')
+INCLUDE_DIR = os.path.join(PROJECT_DIR, 'carbonara_pyvex', 'include')
 
 try:
     from setuptools import setup
@@ -205,6 +205,6 @@ setup(
     setup_requires=[ 'pycparser', 'cffi>=1.0.3' ],
     include_package_data=True,
     package_data={
-        'pyvex': ['lib/*', 'include/*']
+        'carbonara_pyvex': ['lib/*', 'include/*']
     }
 )
