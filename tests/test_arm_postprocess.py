@@ -1,5 +1,5 @@
-import pyvex
-import archinfo
+import carbonara_pyvex as pyvex
+import carbonara_archinfo as archinfo
 import nose
 
 ##########################

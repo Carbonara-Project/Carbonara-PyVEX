@@ -1,4 +1,4 @@
-import pyvex
+import carbonara_pyvex as pyvex
 import nose
 import random
 import resource

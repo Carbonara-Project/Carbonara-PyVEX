@@ -1,6 +1,6 @@
 import struct
-import archinfo
-import pyvex
+import carbonara_archinfo as archinfo
+import carbonara_pyvex as pyvex
 from functools import wraps
 from pyvex.expr import *
 from pyvex.lift import Lifter, register
