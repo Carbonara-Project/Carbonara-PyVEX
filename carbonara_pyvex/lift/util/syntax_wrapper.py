@@ -3,7 +3,7 @@ import functools
 
 from .vex_helper import IRSBCustomizer, Type, JumpKind
 import carbonara_pyvex as pyvex
-from pyvex.expr import IRExpr, Const, RdTmp, Unop, Binop, Triop, Qop, Load, CCall, Get
+from carbonara_pyvex.expr import IRExpr, Const, RdTmp, Unop, Binop, Triop, Qop, Load, CCall, Get
 
 def checkparams(rhstype=None):
     def decorator(fn):

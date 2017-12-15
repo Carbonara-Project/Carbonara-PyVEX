@@ -2,8 +2,8 @@ import struct
 import carbonara_archinfo as archinfo
 import carbonara_pyvex as pyvex
 from functools import wraps
-from pyvex.expr import *
-from pyvex.lift import Lifter, register
+from carbonara_pyvex.expr import *
+from carbonara_pyvex.lift import Lifter, register
 from .vex_helper import *
 from syntax_wrapper import VexValue
 import logging

@@ -1,9 +1,9 @@
 from enum import Enum
 import re
-from pyvex.const import ty_to_const_class, vex_int_class, get_type_size
-from pyvex.expr import IRExpr, Const, RdTmp, Unop, Binop, Triop, Qop, Load, CCall, Get, ITE
-from pyvex.stmt import WrTmp, Put, IMark, Store, NoOp, Exit
-from pyvex.enums import IRCallee
+from carbonara_pyvex.const import ty_to_const_class, vex_int_class, get_type_size
+from carbonara_pyvex.expr import IRExpr, Const, RdTmp, Unop, Binop, Triop, Qop, Load, CCall, Get, ITE
+from carbonara_pyvex.stmt import WrTmp, Put, IMark, Store, NoOp, Exit
+from carbonara_pyvex.enums import IRCallee
 
 class JumpKind(object):
     Boring = 'Ijk_Boring'

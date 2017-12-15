@@ -1,6 +1,6 @@
-from pyvex import IRSB
-from pyvex.stmt import WrTmp, Put, IMark, Store, NoOp
-from pyvex.expr import Const, RdTmp, Unop, Binop, Triop, Qop, Get
+from carbonara_pyvex import IRSB
+from carbonara_pyvex.stmt import WrTmp, Put, IMark, Store, NoOp
+from carbonara_pyvex.expr import Const, RdTmp, Unop, Binop, Triop, Qop, Get
 
 from vex_helper import IRSBCustomizer
 
